@@ -45,7 +45,7 @@ while end_of_program == False :
 
   restart = input("\nType Yes if you want to continue the program. Otherwise, type No :\n")
   if "no" == restart.lower():
-    end_caesar = True
+    end_of_program = True
     print("\nThe program end. Good bye! ")
   else :
     print("\n\n")
